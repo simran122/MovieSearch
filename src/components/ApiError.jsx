@@ -7,7 +7,7 @@ function Error() {
   const { error } = movie
   return (
 
-    <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", marginTop: "4rem", padding: "1rem" ,height:"81.1vh" }}>
+    <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", marginTop: "4rem", padding: "1rem" ,minHeight:"inherit" }}>
       <Typography variant="h3" color="Black">We're Sorry.</Typography>
       <Typography variant="h3" color="Black" sx={{ textAlign: "center" }}>The page you're looking for doesn't exist.</Typography>
       <Typography variant="h3" color="Black" sx={{ textAlign: "center" }}>{error}</Typography>
