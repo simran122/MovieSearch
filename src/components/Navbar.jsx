@@ -68,11 +68,21 @@ function Navbar({ search, setSearch }) {
         setTimeoutId(timeOut)
 
 
-        navigate("/")
+     
 
 
 
     }
+
+    
+    const handleClick = () => {
+
+        dispatch(fetchMovies(""
+        ))
+        setSearch("")
+
+    }
+
 
 
 
@@ -85,7 +95,7 @@ function Navbar({ search, setSearch }) {
                         variant="h6"
                         noWrap
                         component="div"
-                        sx={{ flexGrow: 0.9, }} onClick={() => { navigate("/") }}
+                        sx={{ flexGrow: 0.9, }} onClick={handleClick}
                     >
                         The Movie
                     </Typography>
