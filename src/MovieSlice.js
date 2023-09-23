@@ -27,7 +27,7 @@ export const fetchPopular = createAsyncThunk(     //createAsyncThunk is a functi
 export const fetchMovies = createAsyncThunk(
     "movie/fetchMovies",
     async (search) => {
-        const response = await axios.get(`http://www.omdbapi.com/?s=${search}&apikey=${API_KEY}`);
+        const response = await axios.get(`https://www.omdbapi.com/?s=${search}&apikey=${API_KEY}`);
         return response.data;
 
     }
@@ -36,7 +36,7 @@ export const fetchMovies = createAsyncThunk(
 export const movieDetail = createAsyncThunk(
     "movie/MovieDetail",
     async (title) => {
-        const response = await axios.get(`http://www.omdbapi.com/?t=${title}&apikey=${API_KEY}`);
+        const response = await axios.get(`https://www.omdbapi.com/?t=${title}&apikey=${API_KEY}`);
         return response.data;
 
     }
