@@ -7,6 +7,7 @@ import store from './Store';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import Error from './components/Error';
+import Footer from './components/Footer';
 import { ThemeProvider, responsiveFontSizes, createTheme } from "@mui/material/styles";
 import { useState, createContext } from 'react';
 const theme = createTheme();
@@ -31,7 +32,7 @@ function App() {
 
               <Route path="*" element={<Error />} />
             </Routes>
-
+  <Footer />
 
           </Provider>
 
