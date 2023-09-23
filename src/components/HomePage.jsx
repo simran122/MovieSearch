@@ -46,7 +46,7 @@ function HomePage() {
             else {
                 setShowNoMovie(false);
             }
-        }, 600);
+        }, 700);
 
         return () => clearTimeout(timeoutId);
     }, [movieData, search]);
