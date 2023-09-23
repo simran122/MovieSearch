@@ -8,6 +8,7 @@ import { useDispatch, } from 'react-redux'
 import { fetchPopular } from '../MovieSlice';
 import ApiError from './ApiError'
 const MovieContainer = styled(Box)(({ theme }) => ({
+      marginTop: "4rem",
     display: 'flex',
     flexWrap: 'wrap',
     flexDirection: 'row',
