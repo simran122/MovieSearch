@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 function NoMovie() {
 
     return (
-        <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", marginTop: "2rem", padding: "1rem" }}>
+        <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", marginTop: "4rem", padding: "1rem" ,height:"81.1vh" }}>
             <Typography variant="h3" color="Black">We're Sorry.</Typography>
             <Typography variant="h3" color="Black" sx={{ textAlign: "center" }}>The Movie you're looking for doesn't exist.</Typography>
             <Typography variant="h3" color="Black" sx={{ textAlign: "center" }}>Check the spelling of Movie</Typography>
