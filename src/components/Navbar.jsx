@@ -88,7 +88,7 @@ function Navbar({ search, setSearch }) {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" sx={{ bgcolor: "#111155" }}>
+            <AppBar position="fixed" sx={{ bgcolor: "#111155" }}>
                 <Toolbar>
 
                     <Typography
